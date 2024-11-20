@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class TestThreadCheckArray {
@@ -6,7 +7,7 @@ public class TestThreadCheckArray {
 			Thread thread1, thread2;
 			System.out.println("Enter array size");
 			int num  = input.nextInt();
-			int [] array = new int[num];
+			ArrayList<Integer> array = new int[num];
 			System.out.println("Enter numbers for array");
 			
 			for (int index = 0; index < num; index++) 
